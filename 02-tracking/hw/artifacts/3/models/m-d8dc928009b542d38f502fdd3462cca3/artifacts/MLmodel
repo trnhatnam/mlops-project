@@ -1,0 +1,28 @@
+artifact_path: file:C:/Users/trinh/Desktop/Projet/02-tracking/hw/artifacts/3/models/m-d8dc928009b542d38f502fdd3462cca3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.7.0
+model_id: m-d8dc928009b542d38f502fdd3462cca3
+model_size_bytes: 2437610
+model_uuid: m-d8dc928009b542d38f502fdd3462cca3
+prompts: null
+run_id: 6d2c359938864c91b079e7db3ffbdd56
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 5702]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-12 10:03:54.476294'

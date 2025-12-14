@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/trinh/Desktop/Projet/02-tracking/scenario/artifact_db/1/models/m-31ba215d4db04654bace4382c0ea2667/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-31ba215d4db04654bace4382c0ea2667
+model_size_bytes: 836
+model_uuid: m-31ba215d4db04654bace4382c0ea2667
+prompts: null
+run_id: d5afd77f88b544d6821ae98ccaed7310
+utc_time_created: '2025-12-09 14:48:45.459209'
