@@ -1,0 +1,9 @@
+mlflow==3.7.0
+mlflow_skinny==3.7.0
+mlflow_tracing==3.7.0
+pandas==2.3.3
+pendulum==3.1.0
+scikit_learn==1.8.0
+xgboost==3.1.2
+scipy
+numpy
